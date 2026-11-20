@@ -1,0 +1,6 @@
+indicator,type,first_seen,last_seen,confidence,vendor_note
+185.220.101.47,ip,2026-08-19,2026-09-06,high,Seen using customer integration credentials
+45.137.21.9,ip,2026-08-18,2026-09-06,medium,Associated hosting range
+TallyBridge-Sync/3.2,user_agent,2026-08-18,2026-09-06,medium,Not a released client version
+91.219.236.18,ip,2026-08-25,2026-08-27,low,Scanning only
+tallybridge-support.net,domain,2026-08-20,2026-08-28,low,Look-alike domain

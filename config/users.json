@@ -1,0 +1,26 @@
+{
+  "madhavi": {
+    "name": "Madhavi Sundar",
+    "role": "finance_manager",
+    "salt": "00acd6b298037a63d0e10f3f3b07f84b",
+    "hash": "ce48925aeb04b6f88922c1eacbf311c56c34bb315034733ec79d4abe9274e271"
+  },
+  "farah": {
+    "name": "Farah Dsouza",
+    "role": "accountant",
+    "salt": "559562ac62aa8145b6dce3a1cd03fd48",
+    "hash": "9c791ab8ee883b37761201a437ca1addc65ebc6b216efc1e9e0fdaca39f39ef9"
+  },
+  "aditi": {
+    "name": "Aditi Kapoor",
+    "role": "it_security",
+    "salt": "6cb18c4060c2bc491673d80414fe48b5",
+    "hash": "a16cd0b3cd8fdb97fe7fba4a9fab2fbb5ae2a80c179caf060f83bf512fbc230d"
+  },
+  "auditor": {
+    "name": "Audit Committee",
+    "role": "auditor",
+    "salt": "1087c8ad2bd917fba1bd12e329a4e342",
+    "hash": "051a98e9ede1d25ac64cf706fdb39c2461f7313c6804fb0df51d1ece28c3647a"
+  }
+}

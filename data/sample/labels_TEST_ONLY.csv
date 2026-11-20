@@ -1,0 +1,485 @@
+change_id,label,scenario
+chg-5001,benign,routine edit
+chg-5002,benign,routine edit
+chg-5003,benign,approved bank update
+chg-5004,benign,routine edit
+chg-5005,benign,integration contact sync
+chg-5006,benign,approved bank update
+chg-5007,benign,approved bank update
+chg-5008,benign,routine edit
+chg-5009,benign,routine edit
+chg-5010,benign,routine edit
+chg-5011,benign,approved bank update
+chg-5012,benign,routine edit
+chg-5013,benign,routine edit
+chg-5014,benign,integration contact sync
+chg-5015,benign,approved bank update
+chg-5016,benign,routine edit
+chg-5017,benign,routine edit
+chg-5018,benign,routine edit
+chg-5019,benign,integration contact sync
+chg-5020,benign,approved bank update
+chg-5021,benign,approved bank update
+chg-5022,benign,routine edit
+chg-5023,benign,routine edit
+chg-5024,benign,routine edit
+chg-5025,benign,routine edit
+chg-5026,benign,routine edit
+chg-5027,benign,routine edit
+chg-5028,benign,routine edit
+chg-5029,benign,routine edit
+chg-5030,benign,routine edit
+chg-5031,benign,routine edit
+chg-5032,benign,approved bank update
+chg-5033,benign,routine edit
+chg-5034,benign,routine edit
+chg-5035,benign,routine edit
+chg-5036,benign,routine edit
+chg-5037,benign,routine edit
+chg-5038,benign,routine edit
+chg-5039,benign,routine edit
+chg-5040,benign,routine edit
+chg-5041,benign,integration contact sync
+chg-5042,benign,routine edit
+chg-5043,benign,routine edit
+chg-5044,benign,approved bank update
+chg-5045,benign,routine edit
+chg-5046,benign,routine edit
+chg-5047,benign,routine edit
+chg-5048,benign,routine edit
+chg-5049,benign,routine edit
+chg-5050,benign,routine edit
+chg-5051,benign,routine edit
+chg-5052,benign,routine edit
+chg-5053,benign,routine edit
+chg-5054,benign,routine edit
+chg-5055,benign,routine edit
+chg-5056,benign,approved bank update
+chg-5057,benign,routine edit
+chg-5058,benign,approved bank update
+chg-5059,benign,routine edit
+chg-5060,benign,integration contact sync
+chg-5061,benign,routine edit
+chg-5062,benign,approved bank update
+chg-5063,benign,routine edit
+chg-5064,benign,routine edit
+chg-5065,benign,routine edit
+chg-5066,benign,approved bank update
+chg-5067,benign,routine edit
+chg-5068,benign,routine edit
+chg-5069,benign,routine edit
+chg-5070,benign,approved bank update
+chg-5071,benign,routine edit
+chg-5072,benign,routine edit
+chg-5073,benign,routine edit
+chg-5074,benign,routine edit
+chg-5075,benign,integration contact sync
+chg-5076,benign,approved bank update
+chg-5077,benign,approved bank update
+chg-5078,benign,routine edit
+chg-5079,benign,routine edit
+chg-5080,benign,approved bank update
+chg-5081,benign,routine edit
+chg-5082,benign,approved bank update
+chg-5083,benign,routine edit
+chg-5084,benign,routine edit
+chg-5085,benign,routine edit
+chg-5086,benign,approved bank update
+chg-5087,benign,approved bank update
+chg-5088,benign,routine edit
+chg-5089,benign,approved bank update
+chg-5090,benign,approved bank update
+chg-5091,benign,routine edit
+chg-5092,benign,routine edit
+chg-5093,benign,approved bank update
+chg-5094,benign,routine edit
+chg-5095,benign,routine edit
+chg-5096,benign,approved bank update
+chg-5097,benign,approved bank update
+chg-5098,benign,routine edit
+chg-5099,benign,routine edit
+chg-5100,benign,approved bank update
+chg-5101,benign,approved bank update
+chg-5102,benign,routine edit
+chg-5103,benign,routine edit
+chg-5104,benign,approved bank update
+chg-5105,benign,routine edit
+chg-5106,benign,routine edit
+chg-5107,benign,approved bank update
+chg-5108,benign,routine edit
+chg-5109,benign,routine edit
+chg-5110,benign,routine edit
+chg-5111,benign,routine edit
+chg-5112,benign,routine edit
+chg-5113,benign,routine edit
+chg-5114,benign,integration contact sync
+chg-5115,benign,routine edit
+chg-5116,benign,approved bank update
+chg-5117,benign,routine edit
+chg-5118,benign,routine edit
+chg-5119,benign,routine edit
+chg-5120,benign,routine edit
+chg-5121,benign,routine edit
+chg-5122,benign,routine edit
+chg-5123,benign,approved bank update
+chg-5124,benign,routine edit
+chg-5125,benign,routine edit
+chg-5126,benign,routine edit
+chg-5127,benign,routine edit
+chg-5128,benign,routine edit
+chg-5129,benign,approved bank update
+chg-5130,benign,approved bank update
+chg-5131,benign,routine edit
+chg-5132,benign,routine edit
+chg-5133,benign,routine edit
+chg-5134,benign,routine edit
+chg-5135,benign,routine edit
+chg-5136,benign,routine edit
+chg-5137,benign,approved bank update
+chg-5138,benign,routine edit
+chg-5139,benign,approved bank update
+chg-5140,benign,routine edit
+chg-5141,benign,routine edit
+chg-5142,benign,routine edit
+chg-5143,benign,routine edit
+chg-5144,benign,routine edit
+chg-5145,benign,approved bank update
+chg-5146,benign,routine edit
+chg-5147,benign,routine edit
+chg-5148,benign,routine edit
+chg-5149,benign,routine edit
+chg-5150,benign,routine edit
+chg-5151,benign,routine edit
+chg-5152,benign,routine edit
+chg-5153,benign,approved bank update
+chg-5154,benign,routine edit
+chg-5155,benign,routine edit
+chg-5156,benign,routine edit
+chg-5157,benign,routine edit
+chg-5158,benign,approved bank update
+chg-5159,benign,routine edit
+chg-5160,benign,routine edit
+chg-5161,benign,routine edit
+chg-5162,benign,routine edit
+chg-5163,benign,routine edit
+chg-5164,benign,integration contact sync
+chg-5165,benign,routine edit
+chg-5166,benign,routine edit
+chg-5167,benign,approved bank update
+chg-5168,benign,routine edit
+chg-5169,benign,routine edit
+chg-5170,benign,integration contact sync
+chg-5171,benign,routine edit
+chg-5172,benign,routine edit
+chg-5173,benign,routine edit
+chg-5174,benign,routine edit
+chg-5175,benign,approved bank update
+chg-5176,benign,routine edit
+chg-5177,benign,routine edit
+chg-5178,benign,routine edit
+chg-5179,benign,routine edit
+chg-5180,benign,routine edit
+chg-5181,benign,approved bank update
+chg-5182,benign,routine edit
+chg-5183,benign,approved bank update
+chg-5184,benign,routine edit
+chg-5185,benign,routine edit
+chg-5186,benign,integration contact sync
+chg-5187,benign,routine edit
+chg-5188,benign,routine edit
+chg-5189,benign,routine edit
+chg-5190,benign,routine edit
+chg-5191,benign,approved bank update
+chg-5192,benign,routine edit
+chg-5193,benign,routine edit
+chg-5194,benign,approved bank update
+chg-5195,benign,routine edit
+chg-5196,benign,routine edit
+chg-5197,benign,routine edit
+chg-5198,benign,routine edit
+chg-5199,benign,routine edit
+chg-5200,benign,routine edit
+chg-5201,benign,routine edit
+chg-5202,benign,approved bank update
+chg-5203,benign,routine edit
+chg-5204,benign,routine edit
+chg-5205,benign,routine edit
+chg-5206,benign,routine edit
+chg-5207,benign,routine edit
+chg-5208,benign,routine edit
+chg-5209,benign,approved bank update
+chg-5210,benign,routine edit
+chg-5211,benign,routine edit
+chg-5212,benign,approved bank update
+chg-5213,benign,routine edit
+chg-5214,benign,routine edit
+chg-5215,benign,routine edit
+chg-5216,benign,approved bank update
+chg-5217,benign,routine edit
+chg-5218,benign,routine edit
+chg-5219,benign,routine edit
+chg-5220,benign,routine edit
+chg-5221,benign,approved bank update
+chg-5222,benign,routine edit
+chg-5223,benign,routine edit
+chg-5224,benign,routine edit
+chg-5225,benign,routine edit
+chg-5226,benign,approved bank update
+chg-5227,benign,routine edit
+chg-5228,benign,routine edit
+chg-5229,benign,approved bank update
+chg-5230,benign,routine edit
+chg-5231,benign,routine edit
+chg-5232,benign,routine edit
+chg-5233,benign,routine edit
+chg-5234,benign,routine edit
+chg-5235,benign,routine edit
+chg-5236,benign,integration contact sync
+chg-5237,benign,approved bank update
+chg-5238,benign,approved bank update
+chg-5239,benign,routine edit
+chg-5240,benign,approved bank update
+chg-5241,benign,routine edit
+chg-5242,benign,approved bank update
+chg-5243,benign,routine edit
+chg-5244,benign,routine edit
+chg-5245,benign,routine edit
+chg-5246,benign,routine edit
+chg-5247,benign,routine edit
+chg-5248,benign,routine edit
+chg-5249,benign,routine edit
+chg-5250,benign,integration contact sync
+chg-5251,benign,routine edit
+chg-5252,benign,routine edit
+chg-5253,benign,routine edit
+chg-5254,benign,routine edit
+chg-5255,benign,routine edit
+chg-5256,benign,routine edit
+chg-5257,benign,approved bank update
+chg-5258,benign,routine edit
+chg-5259,benign,routine edit
+chg-5260,benign,routine edit
+chg-5261,benign,approved bank update
+chg-5262,benign,routine edit
+chg-5263,benign,routine edit
+chg-5264,benign,routine edit
+chg-5265,benign,routine edit
+chg-5266,benign,routine edit
+chg-5267,benign,approved bank update
+chg-5268,benign,approved bank update
+chg-5269,benign,approved bank update
+chg-5270,benign,routine edit
+chg-5271,benign,routine edit
+chg-5272,benign,approved bank update
+chg-5273,benign,routine edit
+chg-5274,benign,routine edit
+chg-5275,benign,routine edit
+chg-5276,benign,routine edit
+chg-5277,benign,routine edit
+chg-5278,benign,approved bank update
+chg-5279,benign,routine edit
+chg-5280,benign,routine edit
+chg-5281,benign,routine edit
+chg-5282,benign,routine edit
+chg-5283,benign,routine edit
+chg-5284,benign,routine edit
+chg-5285,benign,routine edit
+chg-5286,benign,routine edit
+chg-5287,benign,approved bank update
+chg-5288,benign,routine edit
+chg-5289,benign,approved bank update
+chg-5290,benign,routine edit
+chg-5291,benign,routine edit
+chg-5292,benign,routine edit
+chg-5293,benign,routine edit
+chg-5294,benign,routine edit
+chg-5295,benign,routine edit
+chg-5296,benign,routine edit
+chg-5297,benign,routine edit
+chg-5298,benign,routine edit
+chg-5299,benign,routine edit
+chg-5300,benign,integration contact sync
+chg-5301,benign,integration contact sync
+chg-5302,benign,routine edit
+chg-5303,benign,routine edit
+chg-5304,benign,approved bank update
+chg-5305,benign,routine edit
+chg-5306,benign,routine edit
+chg-5307,benign,routine edit
+chg-5308,benign,integration contact sync
+chg-5309,benign,routine edit
+chg-5310,benign,routine edit
+chg-5311,benign,routine edit
+chg-5312,benign,routine edit
+chg-5313,benign,approved bank update
+chg-5314,benign,approved bank update
+chg-5315,benign,routine edit
+chg-5316,benign,integration contact sync
+chg-5317,benign,routine edit
+chg-5318,benign,approved bank update
+chg-5319,benign,approved bank update
+chg-5320,benign,routine edit
+chg-5321,benign,integration contact sync
+chg-5322,benign,routine edit
+chg-5323,benign,routine edit
+chg-5324,benign,routine edit
+chg-5325,benign,routine edit
+chg-5326,benign,routine edit
+chg-5327,benign,integration contact sync
+chg-5328,benign,routine edit
+chg-5329,benign,routine edit
+chg-5330,benign,routine edit
+chg-5331,benign,approved bank update
+chg-5332,benign,routine edit
+chg-5333,benign,routine edit
+chg-5334,benign,routine edit
+chg-5335,benign,routine edit
+chg-5336,benign,routine edit
+chg-5337,benign,approved bank update
+chg-5338,benign,routine edit
+chg-5339,benign,routine edit
+chg-5340,benign,routine edit
+chg-5341,benign,routine edit
+chg-5342,benign,routine edit
+chg-5343,benign,approved bank update
+chg-5344,benign,approved bank update
+chg-5345,benign,approved bank update
+chg-5346,benign,routine edit
+chg-5347,benign,routine edit
+chg-5348,benign,routine edit
+chg-5349,benign,routine edit
+chg-5350,benign,routine edit
+chg-5351,benign,routine edit
+chg-5352,benign,routine edit
+chg-5353,benign,routine edit
+chg-5354,benign,routine edit
+chg-5355,benign,routine edit
+chg-5356,benign,approved bank update
+chg-5357,benign,routine edit
+chg-5358,benign,routine edit
+chg-5359,benign,routine edit
+chg-5360,benign,routine edit
+chg-5361,benign,approved bank update
+chg-5362,benign,routine edit
+chg-5363,benign,approved bank update
+chg-5364,benign,routine edit
+chg-5365,benign,routine edit
+chg-5366,benign,approved bank update
+chg-5367,benign,routine edit
+chg-5368,benign,routine edit
+chg-5369,benign,routine edit
+chg-5370,benign,approved bank update
+chg-5371,benign,integration contact sync
+chg-5372,benign,approved bank update
+chg-5373,benign,routine edit
+chg-5374,benign,routine edit
+chg-5375,benign,routine edit
+chg-5376,benign,approved bank update
+chg-5377,benign,routine edit
+chg-5378,benign,approved bank update
+chg-5379,benign,approved bank update
+chg-5380,benign,routine edit
+chg-5381,benign,routine edit
+chg-5382,benign,routine edit
+chg-5383,benign,routine edit
+chg-5384,benign,integration contact sync
+chg-5385,benign,routine edit
+chg-5386,benign,routine edit
+chg-5387,benign,routine edit
+chg-5388,benign,approved bank update
+chg-5389,benign,routine edit
+chg-5390,benign,month-end clean-up
+chg-5391,benign,month-end clean-up
+chg-5392,benign,month-end clean-up
+chg-5393,benign,month-end clean-up
+chg-5394,benign,month-end clean-up
+chg-5395,benign,month-end clean-up
+chg-5396,benign,month-end clean-up
+chg-5397,benign,month-end clean-up
+chg-5398,benign,month-end clean-up
+chg-5399,benign,month-end clean-up
+chg-5400,benign,month-end clean-up
+chg-5401,benign,month-end clean-up
+chg-5402,benign,month-end clean-up
+chg-5403,benign,month-end clean-up
+chg-5404,benign,month-end clean-up
+chg-5405,benign,month-end clean-up
+chg-5406,benign,month-end clean-up
+chg-5407,benign,month-end clean-up
+chg-5408,benign,month-end clean-up
+chg-5409,benign,month-end clean-up
+chg-5410,benign,month-end clean-up
+chg-5411,benign,month-end clean-up
+chg-5412,benign,month-end clean-up
+chg-5413,benign,month-end clean-up
+chg-5414,benign,month-end clean-up
+chg-5415,benign,month-end clean-up
+chg-5416,benign,month-end clean-up
+chg-5417,benign,month-end clean-up
+chg-5418,benign,month-end clean-up
+chg-5419,benign,month-end clean-up
+chg-5420,benign,month-end clean-up
+chg-5421,benign,month-end clean-up
+chg-5422,benign,month-end clean-up
+chg-5423,benign,month-end clean-up
+chg-5424,benign,month-end clean-up
+chg-5425,benign,month-end clean-up
+chg-5426,benign,month-end clean-up
+chg-5427,benign,month-end clean-up
+chg-5428,benign,month-end clean-up
+chg-5429,benign,month-end clean-up
+chg-5430,benign,month-end clean-up
+chg-5431,benign,month-end clean-up
+chg-5432,benign,month-end clean-up
+chg-5433,benign,month-end clean-up
+chg-5434,benign,month-end clean-up
+chg-5435,benign,month-end clean-up
+chg-5436,benign,month-end clean-up
+chg-5437,benign,month-end clean-up
+chg-5438,benign,month-end clean-up
+chg-5439,benign,month-end clean-up
+chg-5440,benign,month-end clean-up
+chg-5441,benign,month-end clean-up
+chg-5442,benign,month-end clean-up
+chg-5443,benign,month-end clean-up
+chg-5444,benign,month-end clean-up
+chg-5445,benign,month-end clean-up
+chg-5446,benign,month-end clean-up
+chg-5447,benign,month-end clean-up
+chg-5448,benign,month-end clean-up
+chg-5449,benign,month-end clean-up
+chg-5450,benign,month-end clean-up
+chg-5451,benign,month-end clean-up
+chg-5452,benign,month-end clean-up
+chg-5453,benign,month-end clean-up
+chg-5454,benign,month-end clean-up
+chg-5455,benign,month-end clean-up
+chg-5456,benign,month-end clean-up
+chg-5457,benign,month-end clean-up
+chg-5458,benign,month-end clean-up
+chg-5459,benign,month-end clean-up
+chg-5460,benign,month-end clean-up
+chg-5461,benign,month-end clean-up
+chg-5462,benign,unapproved staff edit (policy slip)
+chg-5463,benign,"unapproved staff edit, remote (policy slip)"
+chg-5464,fraud,attack: before 23 Aug run
+chg-5465,fraud,attack: before 8 Sep run
+chg-5466,fraud,attack: before 8 Sep run
+chg-5467,fraud,attack: mule account reused
+chg-5468,fraud,attack: before 8 Sep run
+chg-5469,fraud,"variation: from inside the private link, normal client"
+chg-5470,fraud,"variation: hidden in month-end clean-up, unknown IP"
+chg-5471,fraud,"variation: forged approval ref, inside link (known miss)"
+chg-5472,fraud,"attack: stolen staff login, unapproved"
+chg-5473,fraud,attack: stolen staff login + forged approval
+chg-5474,fraud,BEC: phone changed first
+chg-5475,fraud,BEC: approved bank change after phone change
+chg-5476,fraud,attack: disabled key from inside
+chg-5477,fraud,attack: read-only key writes bank details
+chg-5478,fraud,"attack: far from a run, unknown cloud IP"
+chg-5479,benign,"tricky normal: new laptop, approved"
+chg-5480,benign,"tricky normal: manager travelling, approved"
+chg-5481,benign,"tricky normal: password typos, approved"
+chg-5482,benign,routine edit
+chg-5483,benign,"tricky normal: phone changed a month earlier, approved"
+chg-5484,benign,tricky normal: urgent approved change on payment day
