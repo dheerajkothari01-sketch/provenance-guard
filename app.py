@@ -87,6 +87,22 @@ div[role="tablist"] {{gap:4px; background:white; padding:6px; border-radius:12px
 .pg-login-h {{font-size:1.6rem; font-weight:700; color:{NAVY}; margin-top:18px;}}
 .pg-login-s {{color:#5C5C5C; font-size:.92rem; margin-bottom:10px; border-left:3px solid {RED}; padding-left:10px;}}
 .pg-legend span {{margin-right:14px; font-size:.88rem;}}
+@media (max-width: 800px) {{
+  .block-container {{padding:3.2rem .7rem 2rem .7rem;}}
+  .pg-bar {{flex-wrap:wrap; padding:14px 16px; gap:10px;}}
+  .pg-bar .logo {{font-size:1.7rem;}}
+  .pg-bar h1 {{font-size:1.15rem;}}
+  .pg-bar p {{font-size:.82rem;}}
+  .pg-bar .tag {{margin-left:0; white-space:normal; font-size:.72rem;}}
+  .pg-how {{flex-direction:column;}}
+  .pg-big {{padding:14px 16px;}}
+  .pg-big h2 {{font-size:1.2rem;}}
+  .pg-kpi {{min-height:0; margin-bottom:8px;}}
+  .pg-kpi .v {{font-size:1.6rem;}}
+  div[role="tablist"] {{flex-wrap:nowrap !important; overflow-x:auto !important;}}
+  .stTabs [data-testid="stTab"] {{padding:6px 9px; flex:0 0 auto;}}
+  .pg-legend span {{display:inline-block; margin:4px 10px 4px 0;}}
+}}
 div[data-testid="stExpander"] {{background:white; border-radius:10px;}}
 </style>
 """, unsafe_allow_html=True)
@@ -246,6 +262,11 @@ with st.sidebar:
             wf.reset(user)
             st.rerun()
 
+_gl, _gr = st.columns([6, 1])
+with _gr:
+    if st.button("🧭 Guide", key="guide_btn", type="primary", width="stretch",
+                 help="Take a guided tour of the tabs that matter for your role"):
+        ss.tour_nonce = ss.get("tour_nonce", 0) + 1
 st.markdown(BAR, unsafe_allow_html=True)
 if labels is not None:
     st.markdown('<div class="pg-test">⚠️ <b>Test data.</b> The sample dataset is synthetic, built in the case file '
@@ -256,6 +277,11 @@ if ss.get("flash"):
     st.toast(("✅ " if kind == "ok" else "⛔ ") + msg)
 
 components.html(tour_script(user["role"]), height=0)
+if ss.get("tour_nonce") and ss.get("tour_done") != ss.tour_nonce:
+    ss.tour_done = ss.tour_nonce
+    components.html("<script>(function go(n){const P=window.parent;if(P.__pgStart){P.__pgStart();}"
+                    "else if(n<40){setTimeout(()=>go(n+1),150);}})(0);</script>"
+                    f"<!-- tour {ss.tour_nonce} -->", height=0)
 TAB_NAMES = ["🏠 Start here", "📊 Overview", "🔎 Investigate", "📋 All changes", "✋ Approvals",
              "🧪 Try it live", "🎯 Accuracy", "⚙️ Rules", "🗂️ Data", "🧾 Audit"]
 if can(user, "manage_users"):
