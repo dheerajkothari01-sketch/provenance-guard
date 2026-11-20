@@ -68,8 +68,8 @@ STEPS = {
              text="You can see every rule and threshold, but only IT Security can change them."),
     ],
 }
-COMMON_END = [dict(sel="#pg-guide-btn", title="That's the tour",
-                   text="Press Guide (top right) any time to see it again.")]
+COMMON_END = [dict(btn="Guide", title="That's the tour",
+                   text="Press 🧭 Guide (top right) any time to see this tour again.")]
 
 JS = r"""
 (function(){
@@ -79,13 +79,9 @@ JS = r"""
   P.__pgTourReady = true;
   const css = D.createElement('style');
   css.textContent = `
-  #pg-guide-btn{position:fixed;top:14px;right:22px;z-index:1000001;background:#C8102E;color:#fff;border:none;
-    border-radius:20px;padding:7px 16px;font:600 14px 'Segoe UI',Arial,sans-serif;cursor:pointer;
-    box-shadow:0 4px 14px rgba(0,0,0,.25)}
-  #pg-guide-btn:hover{background:#9E0C24}
   #pg-tour-hole{position:fixed;z-index:1000002;border-radius:10px;box-shadow:0 0 0 9999px rgba(0,0,0,.62);
     outline:3px solid #C8102E;transition:all .25s ease;pointer-events:none}
-  #pg-tour-tip{position:fixed;z-index:1000003;width:380px;background:#fff;border-radius:12px;padding:16px 18px;
+  #pg-tour-tip{position:fixed;z-index:1000003;width:380px;max-width:calc(100vw - 24px);background:#fff;border-radius:12px;padding:16px 18px;
     font-family:'Segoe UI',Arial,sans-serif;box-shadow:0 12px 34px rgba(0,0,0,.35);border-top:5px solid #C8102E}
   #pg-tour-tip h4{margin:0 0 6px;font-size:17px;color:#161616}
   #pg-tour-tip p{margin:0 0 12px;font-size:14px;color:#333;line-height:1.45}
@@ -97,6 +93,7 @@ JS = r"""
   let i = 0;
   function el(s){
     if (s.tab) return [...D.querySelectorAll('[data-testid="stTab"]')].find(t => t.innerText.includes(s.tab));
+    if (s.btn) return [...D.querySelectorAll('button')].find(b => b.innerText.includes(s.btn));
     return D.querySelector(s.sel);
   }
   function end(){ ['pg-tour-hole','pg-tour-tip'].forEach(id => { const e = D.getElementById(id); if (e) e.remove(); }); }
@@ -117,7 +114,7 @@ JS = r"""
           `<button class="go" data-a="next">${i<steps.length-1?'Next':'Finish'}</button></div>`;
         const W = P.innerWidth, H = P.innerHeight;
         let top = r.bottom + 14; if (top + 190 > H) top = Math.max(12, r.top - 200);
-        let left = Math.min(Math.max(12, r.left), W - 400);
+        const tw = Math.min(380, W - 24); let left = Math.min(Math.max(12, r.left), W - tw - 12);
         Object.assign(t.style, {top: top+'px', left: left+'px'});
         t.onclick = ev => { const a = ev.target.getAttribute('data-a'); if (!a) return;
           if (a==='next') { if (i < steps.length-1) { i++; show(); } else end(); }
@@ -125,16 +122,8 @@ JS = r"""
       }, 450);
     }, s.tab ? 700 : 50);
   }
-  function addBtn(){
-    const ex = D.getElementById('pg-guide-btn');
-    if (!D.querySelector('.pg-user')) { if (ex) ex.remove(); end(); return; }
-    if (ex) return;
-    const b = D.createElement('button'); b.id = 'pg-guide-btn'; b.innerText = '🧭 Guide';
-    b.title = 'Take a guided tour for your role';
-    b.onclick = () => { i = 0; show(); };
-    D.body.appendChild(b);
-  }
-  addBtn(); setInterval(addBtn, 1500);
+  P.__pgStart = () => { end(); i = 0; show(); };
+  setInterval(() => { if (!D.querySelector('.pg-user')) end(); }, 1500);
   D.addEventListener('keydown', ev => { if (ev.key === 'Escape') end(); });
 })();
 """
